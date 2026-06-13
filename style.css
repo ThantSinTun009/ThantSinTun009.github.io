@@ -438,10 +438,3 @@
     color: #c7cbed;
     font-weight: 700;
   }
-
-.project-image {
-  width: 100%;
-  height: 190px;
-  object-fit: cover;
-  display: block;
-}
