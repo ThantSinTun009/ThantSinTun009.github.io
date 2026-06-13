@@ -1,165 +1,352 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-    <title>Thant Sin Tun | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thant Sin Tun | AI Engineering Intern | NLP Enthusiast</title>
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin:0;
-            background:#f4f4f4;
-            color:#333;
-        }
+```
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+```
 
-        .hero{
-            background:#0f172a;
-            color:white;
-            text-align:center;
-            padding:100px 20px;
-        }
-
-        .hero h1{
-            font-size:50px;
-        }
-
-        .hero p{
-            font-size:20px;
-        }
-
-        .container{
-            width:80%;
-            margin:auto;
-            padding:40px 0;
-        }
-
-        .section{
-            background:white;
-            padding:30px;
-            margin-bottom:20px;
-            border-radius:10px;
-        }
-
-        h2{
-            color:#0f172a;
-        }
-
-        .project{
-            border-left:4px solid #2563eb;
-            padding-left:15px;
-            margin-bottom:20px;
-        }
-
-        a{
-            color:#2563eb;
-            text-decoration:none;
-        }
-
-        footer{
-            background:#0f172a;
-            color:white;
-            text-align:center;
-            padding:20px;
-        }
-    </style>
 </head>
 
 <body>
 
-<div class="hero">
-    <h1>Thant Sin Tun</h1>
-    <p>AI Developer • Data Analyst • Educator</p>
-</div>
+<div class="stars" id="stars"></div>
 
-<div class="container">
+<header class="hero">
 
-    <div class="section">
-        <h2>About Me</h2>
-        <p>
-            I am passionate about Artificial Intelligence,
-            Machine Learning, Data Science, and Education.
-            I build intelligent systems that solve real-world
-            problems and help communities through technology.
-        </p>
+```
+<nav class="navbar">
+    <div class="logo">Thant Sin Tun</div>
+
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero-content">
+
+    <p class="eyebrow">
+        AI • Data Science • Education
+    </p>
+
+    <h1>
+        Building intelligent systems and empowering communities through technology.
+    </h1>
+
+    <p class="intro">
+        I am an AI engineering intern, NLP enthusiast, and a Statistics & Data Science major student at Parami University, passionate about building intelligent systems and using data to solve real-world problems.
+        I have a strong interest in Machine Learning, Deep Learning, and Neural Networks, and I am currently learning RAG, LangChain, and LLMs.
+    </p>
+
+    <div class="identity">
+        Machine Learning · Deep Learning · NLP 
     </div>
 
-    <div class="section">
-        <h2>Skills</h2>
-
-        <ul>
-            <li>Python</li>
-            <li>TensorFlow</li>
-            <li>Machine Learning</li>
-            <li>Deep Learning</li>
-            <li>Data Analysis</li>
-            <li>SQL</li>
-            <li>Git & GitHub</li>
-            <li>Streamlit</li>
-        </ul>
+    <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
     </div>
 
-    <div class="section">
-        <h2>Featured Projects</h2>
+</section>
+```
 
-        <div class="project">
+</header>
+
+<main>
+
+<section id="about" class="section" data-aos="fade-up">
+
+```
+<p class="section-label">About</p>
+
+<h2>
+    AI Engineer and Educator.
+</h2>
+
+<p>
+    My journey started as a mathematics instructor and evolved into
+    machine learning, data science, and artificial intelligence.
+
+    I have experience building NLP systems, computer vision applications,
+    predictive models, and educational technology solutions.
+
+    Beyond technology, I am passionate about providing educational
+    opportunities for underserved communities and helping students
+    discover the power of AI and data.
+</p>
+```
+
+</section>
+
+<section id="projects" class="section" data-aos="fade-up">
+
+```
+<p class="section-label">Projects</p>
+
+<h2>Featured Projects</h2>
+
+<div class="cards">
+
+    <article class="card project-card">
+
+        <div class="project-content">
+
+            <span class="card-tag">AI / NLP</span>
+
             <h3>SkimLit AI</h3>
+
             <p>
-                Medical abstract classification system using
-                TensorFlow and NLP.
+                Deep learning NLP system that classifies medical abstract
+                sentences into Background, Objective, Methods, Results,
+                and Conclusions.
             </p>
+
+            <p class="tech">
+                TensorFlow · TensorFlow Hub · NLP · Streamlit
+            </p>
+
+            <div class="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+
         </div>
 
-        <div class="project">
+    </article>
+
+    <article class="card project-card">
+
+        <div class="project-content">
+
+            <span class="card-tag">Computer Vision</span>
+
             <h3>Plant Disease Detection</h3>
+
             <p>
-                Deep learning system for identifying plant diseases.
+                Convolutional Neural Network model for detecting crop
+                diseases from leaf images to support agricultural decision making.
             </p>
+
+            <p class="tech">
+                TensorFlow · CNN · Deep Learning
+            </p>
+
+            <div class="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+
         </div>
 
-        <div class="project">
-            <h3>Data Analytics Dashboard</h3>
+    </article>
+
+    <article class="card project-card">
+
+        <div class="project-content">
+
+            <span class="card-tag">Data Analytics</span>
+
+            <h3>Interactive Data Dashboard</h3>
+
             <p>
-                Interactive dashboard for business insights.
+                Dashboard for exploring and visualizing educational
+                and business datasets through interactive analytics.
             </p>
+
+            <p class="tech">
+                Python · Pandas · Plotly · Streamlit
+            </p>
+
         </div>
 
+    </article>
+
+</div>
+```
+
+</section>
+
+<section id="skills" class="section" data-aos="fade-up">
+
+```
+<p class="section-label">Skills</p>
+
+<h2>Technologies I Work With</h2>
+
+<div class="skills-grid">
+    <span>Python</span>
+    <span>TensorFlow</span>
+    <span>Keras</span>
+    <span>Machine Learning</span>
+    <span>Deep Learning</span>
+    <span>NLP</span>
+    <span>Computer Vision</span>
+    <span>Pandas</span>
+    <span>NumPy</span>
+    <span>SQL</span>
+    <span>Git</span>
+    <span>GitHub</span>
+    <span>Streamlit</span>
+</div>
+```
+
+</section>
+
+<section id="education" class="section" data-aos="fade-up">
+
+```
+<p class="section-label">Education</p>
+
+<h2>Academic Journey</h2>
+
+<div class="timeline">
+
+    <div class="timeline-item">
+        <div class="timeline-year">Present</div>
+
+        <div class="timeline-content">
+            <h3>Bachelor of Engineering (Statistics & Data Science)</h3>
+
+            <p>
+                Specializing on Artificial Intelligence.
+            </p>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>Experience</h2>
+    <div class="timeline-item">
+        <div class="timeline-year">2023</div>
 
-        <ul>
-            <li>Freelance Jr. Data Analyst</li>
-            <li>Math Instructor</li>
-            <li>Lead Instructor - Non-Profit Night School</li>
-            <li>Retail Sales Associate</li>
-        </ul>
-    </div>
+        <div class="timeline-content">
+            <h3>Bard College Diploma</h3>
 
-    <div class="section">
-        <h2>Contact</h2>
-
-        <p>Email: your_email@gmail.com</p>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/yourusername">
-                github.com/yourusername
-            </a>
-        </p>
-
-        <p>
-            LinkedIn:
-            <a href="#">
-                LinkedIn Profile
-            </a>
-        </p>
+            <p>
+                Liberal Arts and Sciences
+            </p>
+        </div>
     </div>
 
 </div>
+```
 
-<footer>
-    © 2026 Thant Sin Tun
+</section>
+
+<section id="experience" class="section" data-aos="fade-up">
+
+```
+<p class="section-label">Experience</p>
+
+<h2>Professional Journey</h2>
+
+<div class="timeline">
+
+    <div class="timeline-item">
+        <div class="timeline-year">Present</div>
+
+        <div class="timeline-content">
+            <h3>AI Engineering Intern (NLP)</h3>
+
+            <p>
+                Burmese languange Processing
+            </p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="timeline-year">Present</div>
+
+        <div class="timeline-content">
+            <h3>Research Assistant</h3>
+
+            <p>
+                SimboloAI
+            </p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="timeline-year">2022–2024</div>
+
+        <div class="timeline-content">
+            <h3>Mathematics Instructor</h3>
+
+            <p>
+                Taught mathematics and supported student learning.
+            </p>
+        </div>
+    </div>
+
+</div>
+```
+
+</section>
+
+<section id="contact" class="section" data-aos="fade-up">
+
+```
+<p class="section-label">Contact</p>
+
+<h2>Let's Connect</h2>
+
+<div class="contact-links">
+
+    <a href="mailto:thantsintun333@gmail.com">
+        Email
+    </a>
+
+    <a href="https://github.com/ThantSinTun009" target="_blank">
+        GitHub
+    </a>
+
+    <a href="linkedin.com/in/thant-sin-tun-252238316">
+        LinkedIn
+    </a>
+
+    <a href="#">
+        Resume
+    </a>
+
+</div>
+```
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+```
+<p>Thant Sin Tun</p>
+
+<span>
+    Building intelligent systems and empowering communities through technology.
+</span>
+
+<small>© 2026</small>
+```
+
 </footer>
+
+<script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 800,
+    once: true
+});
+</script>
 
 </body>
 </html>
